@@ -4,6 +4,21 @@
 		</head>
 		<body>
 			<h3>TLS</h3>
+			<div id="rfcnotes">
+				Prerequisites:
+				A transport protocol with following data stream charateristics - 
+				1. Reliable
+				2. In order
+
+				TLS provides the following for communication between 2 peers - 
+				1. Authentication: communicating peers can authenticate each other to verify they are talking to the right person.
+				2. Confidentiality: no one else is listening to the conversation.
+				3. Integrity: communication data between peers cannot be altered without detection.
+
+				TLS consists of 2 main components:
+				1. A handshake protocol: negotiate and reach an agreement on what all is required to secure the communication.
+				2. A record protocol: use the agreed upon specs from 1 to secure communication.
+			</div>
 			<p>
 				TLS Collage.
 				<label>Digital Certificates</label>
@@ -12,7 +27,6 @@
 				Header: -----BEGIN CERTIFICATE-----
 				Footer: -----END CERTIFICATE-----
 				Whats in the box ?
-				A 
 				</p>
 			</p>
 		</body>
