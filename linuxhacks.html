@@ -1,0 +1,26 @@
+<html>
+		<head>
+				<title>Linux Hacks</title>
+				<style>
+					label hlt {color: blue}
+				</style>
+		</head>
+		<body>
+				<pre>
+				<h3>Setting up a local DNS server.</h3>
+				1. To setup a local DNS server we need to add an entry in the file /etc/hosts for the domain name that we want to resolve.
+				2. Lets use a domain name - www.localhost.com, for test purpose.
+				3. Add the following entry to your /etc/hosts file - 
+					127.0.0.1	www.localhost.com
+				4. Save and close the file.
+				5. Run <label><hlt>nslookup www.localhost.com</hlt></label> on the shell and that should give you the following output -
+					Server:         127.0.0.53
+					Address:        127.0.0.53#53
+
+					Non-authoritative answer:
+					Name:   www.localhost.com
+					Address: 127.0.0.1
+DONE
+				</pre>
+		</body>
+</html>
