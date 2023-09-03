@@ -1,0 +1,20 @@
+<html>
+	<body>
+			Errors and their Reasons
+			<pre>
+			DPDK runtime error.
+			Error description/log - 
+				EAL: Detected CPU lcores: 3
+				EAL: Detected NUMA nodes: 1
+				EAL: Detected static linkage of DPDK
+				EAL: Multi-process socket /run/user/1000/dpdk/rte/mp_socket
+				EAL: FATAL: Cannot use IOVA as 'PA' since physical addresses are not available
+				EAL: Cannot use IOVA as 'PA' since physical addresses are not available
+				rte_eal_init: failed
+			Reason -
+				The program does not have privilege to access the physical address space.
+			Solution - 
+				Run program with 'sudo'
+			</pre>
+	</body>
+</html>
