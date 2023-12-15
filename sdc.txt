@@ -1,0 +1,16 @@
+SDC: Skill Development Curriculum
+
+Platform
+Tools
+Domain
+
+SDC-Generic
+Domain - Programming (C Language, DSA, OS, Compilers, etc)
+Tools - C Language, ...
+Platform - Linux
+
+SDC-1
+Domain - AAA 
+Tools - Freeradius, AAA, RADIUS ...
+
+
